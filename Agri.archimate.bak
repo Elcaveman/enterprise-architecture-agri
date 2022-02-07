@@ -12,7 +12,7 @@
             <element xsi:type="archimate:BusinessActor" name="Agence 1" id="id-d10d4c3677534efebf224974d9f239db"/>
             <element xsi:type="archimate:BusinessActor" name="Agence 2" id="id-4c8b6bd3dc0f472b83a601a875dccaee"/>
             <element xsi:type="archimate:BusinessActor" name="Agence 3" id="id-46e23b78d8a940e9ad294153fc1ee0b1"/>
-            <element xsi:type="archimate:BusinessActor" name="Agri" id="id-7b9ea87280e54918a9e00262d6f6214b"/>
+            <element xsi:type="archimate:BusinessActor" name="BioCare" id="id-7b9ea87280e54918a9e00262d6f6214b"/>
             <element xsi:type="archimate:BusinessActor" name="Siège direction" id="id-1e7d100965d34b18b0417e1ac282301f"/>
           </folder>
           <folder name="HQ" id="id-bf0131756cdd486a9ddd3f09b679ba1b">
@@ -53,7 +53,7 @@
             <element xsi:type="archimate:BusinessActor" name="Agence " id="id-a3ee0aae6ef54c559bbff9f59dd8c0d8"/>
             <element xsi:type="archimate:BusinessActor" name="Agence 2" id="id-89adc636a88a4b2c837544b3f09ec36b"/>
             <element xsi:type="archimate:BusinessActor" name="Agence 3" id="id-82e49b4c09a24b919d1a2142d6b88e63"/>
-            <element xsi:type="archimate:BusinessActor" name="AGRI" id="id-c58bce6c4cd44fe58b7f2169257b2d08"/>
+            <element xsi:type="archimate:BusinessActor" name="BioCare" id="id-c58bce6c4cd44fe58b7f2169257b2d08"/>
             <element xsi:type="archimate:BusinessActor" name="Siège de la Direction" id="id-f73c3ea3acb64afaa1faeedeb79f9b50"/>
           </folder>
           <element xsi:type="archimate:BusinessActor" name="Facturation" id="id-817963f0ab824d939744781ad98d1313"/>
@@ -115,7 +115,7 @@
       <element xsi:type="archimate:BusinessProcess" name="Reserver le stock" id="id-f23b1b2b9c814721b23e51ea0b56fc62"/>
       <element xsi:type="archimate:BusinessProcess" name="Transporter de la commande" id="id-3e8813d4194849a7b681193e3d8ad137"/>
       <element xsi:type="archimate:BusinessProcess" name="Valider la commande" id="id-d7c1262691444f1fba44e61b53842b27"/>
-      <element xsi:type="archimate:BusinessProcess" name="Préparer livraison" id="id-58f6bd007040478d89dcc781eececbf8"/>
+      <element xsi:type="archimate:BusinessProcess" name="Préparer la livraison" id="id-58f6bd007040478d89dcc781eececbf8"/>
     </folder>
     <folder name="Buisness Services" id="id-ee3b41a3f93747898c109b9815771b46"/>
     <element xsi:type="archimate:BusinessProcess" name="Valider le paiement" id="id-3b5a3a0329324b87b00c68ec384ddcc6"/>
@@ -737,7 +737,7 @@
         </element>
         <element xsi:type="archimate:ArchimateDiagramModel" name="Buisness Organisation - Old" id="id-4e57ad8fd34b437887df4761d9182d28">
           <child xsi:type="archimate:DiagramObject" id="id-37b9e04bf27f43e5a86874e3de683dad" archimateElement="id-c58bce6c4cd44fe58b7f2169257b2d08">
-            <bounds x="624" y="72" width="757" height="553"/>
+            <bounds x="600" y="72" width="757" height="553"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-d2f02d419dc642868c83204b607750e9" source="id-37b9e04bf27f43e5a86874e3de683dad" target="id-7c0b181aace2434891c4f1ab34ca018a" archimateRelationship="id-b1b001ea537642698b4370d5545de89b"/>
             <sourceConnection xsi:type="archimate:Connection" id="id-84395d819fc341f2ac8adb24c87002ac" source="id-37b9e04bf27f43e5a86874e3de683dad" target="id-df826fa484d645c9ad04ebf4c980dd21" archimateRelationship="id-7f1170e1fdc54bb48557a1c7d6e6aae5"/>
             <child xsi:type="archimate:DiagramObject" id="id-7c0b181aace2434891c4f1ab34ca018a" targetConnections="id-d2f02d419dc642868c83204b607750e9" fillColor="#ffffff" archimateElement="id-f73c3ea3acb64afaa1faeedeb79f9b50">
